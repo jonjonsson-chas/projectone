@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jon Jönsson | Project One | ITSX25</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jon Jönsson</h1>
+    <nav>
+      <a href="index.html">Om mig</a>
+      <a href="cv.html">CV</a>
+      <a href="skola.html">Skola</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Om mig</h2>
+    <p>
+      Jag är en kille från Helsingborgsområdet med ett generellt intresse för allting IT. <br> 
+      Utöver detta är jag även intresserad av design, fotboll, musik och spel. På fritiden gillar jag att umgås med vänner, laga mat, spela tv-spel, illustrera och att åka longboard. När jag får chansen så reser jag gärna också. <br>
+    </p>
+  </section>
+
+<img src="legokilla.png" alt="En av mina illustrationer" class="profile-img" /> <br>
+
+  <section id="projects">
+    <h2>Skolprojekt</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>En enkel hemsida designad i HTML/CSS inför kursstart på CHAS. <br> 
+            Klicka på knappen nedan för att ladda ner källkoden.</p>
+        <a href="projectone.zip" class="btn">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Jon Jönsson
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

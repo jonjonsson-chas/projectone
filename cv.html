@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Resumé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CV</h1>
+        <nav>
+      <a href="index.html">Om mig</a>
+      <a href="cv.html">CV</a>
+      <a href="skola.html">Skola</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Arbetslivserfarenhet</h2>
+    <ul>
+      <li><strong>Second Line Support Engineer</strong> – Tunstall AB (2024–2025)</li>
+      <li><strong>First Line Support Engineer</strong> – Tunstall AB (2023–2024)</li>
+      <li><strong>Frilans designer i 3D-miljöer</strong> – 2021-2023</li>
+      <li><strong>Receptionist</strong> – Nyhems Vårdcentral (2020-2020)</li>
+      <li><strong>KnowHow Supporttekniker</strong> – Elgiganten AB (2017-2018)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Utbildning</h2>
+    <ul>
+      <li>Kandidatexamen i IT-forensik och Informationssäkerhet – Högskolan i Halmstad (2018-2021)</li>
+      <li>Gymnasieexamen, el- och energiprogrammet – IT-Gymnasiet Helsingborg (2015-2018)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Färdigheter och kunskaper</h2>
+    <ul>
+        <li>Adobe Creative Suite</li>
+        <li>Autopsy Digital Forensic Toolkit</li>
+        <li>HTML, CSS, JavaScript</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="card">
+        <h3>CV</h3>
+        <p>Ladda ner mitt CV som en PDF genom att klicka på knappen nedan.</p>
+        <a href="elektriker.jpg" class="btn">Ladda ner CV som PDF</a>
+      </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Jon Jönsson
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
